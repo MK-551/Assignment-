@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	float temp;
+printf("Enter temprature in celcius");
+scanf("%f",&temp);
+printf("%f celcius is converted into %f fahrenheit",temp,(temp * 9/5)+32);
+getch();
+}
